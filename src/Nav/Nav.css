@@ -1,0 +1,44 @@
+.name {
+  font-size: 3.4rem;
+  margin: 0.5rem;
+  color: #f5f1ed;
+  font-family: 'Amatic SC', cursive;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.navbar {
+  height: 4.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252323;
+}
+
+.navbar-links ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links li {
+  height: 100%;
+  list-style: none;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #f5f1ed;
+  padding: 1rem;
+  font-size: 1.4rem;
+  display: block;
+}
+
+.navbar-links li:hover {
+  background-color: #555;
+}

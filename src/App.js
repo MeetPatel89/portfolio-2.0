@@ -1,20 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Nav from './Nav/Nav';
+import './App.css';
 
 export default function App() {
   return (
     <>
-      <header>
-        <h1>Meet Patel</h1>
-        <nav>
-          <ul>
-            <li>Intro</li>
-            <li>About</li>
-            <li>TechStack</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </header>
+      <Nav />
     </>
   );
 }
