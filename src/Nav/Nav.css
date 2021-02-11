@@ -7,10 +7,10 @@
 
 .navbar-links {
   height: 100%;
+  margin-right: 10px;
 }
 
 .navbar {
-  height: 4.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,14 +49,15 @@
 .toggle-button-div {
   position: absolute;
   right: 1rem;
+  top: 1.6rem;
 }
 
 .toggle-button {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  width: 35px;
+  height: 23px;
 }
 
 .toggle-button .bar {
@@ -73,5 +74,32 @@
 
   .navbar-links a {
     font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .navbar-links {
+    align-self: center;
+    margin-bottom: 10px;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .name {
+    font-size: 2.7rem;
+  }
+
+  .navbar-links:active {
+    display: flex;
   }
 }
