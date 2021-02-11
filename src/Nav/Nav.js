@@ -5,6 +5,14 @@ export default function Nav() {
   return (
     <nav className='navbar'>
       <div className='name'>Meet Patel</div>
+      <div className='toggle-button-div'>
+        <a href='#' class='toggle-button'>
+          <span class='bar'></span>
+          <span class='bar'></span>
+          <span class='bar'></span>
+        </a>
+      </div>
+
       <div className='navbar-links'>
         <ul>
           <li>

@@ -29,6 +29,9 @@
 .navbar-links li {
   height: 100%;
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-links a {
@@ -41,4 +44,34 @@
 
 .navbar-links li:hover {
   background-color: #555;
+}
+
+.toggle-button-div {
+  position: absolute;
+  right: 1rem;
+}
+
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #f5f1ed;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links a {
+    font-size: 1rem;
+  }
 }
