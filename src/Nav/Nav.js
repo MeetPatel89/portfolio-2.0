@@ -10,7 +10,7 @@ export default class Nav extends Component {
     }
   }
 
-  handleclick = () => {
+  handleClick = () => {
    this.setState({
      navLinks: !this.state.navLinks ? 'hidden' : ''
    })
@@ -18,36 +18,38 @@ export default class Nav extends Component {
 
   render() {
       return (
-        <nav className='navbar'>
-          <div className='name'>Meet Patel</div>
-          <div className='toggle-button-div'>
-            <a href='#' class='toggle-button' onClick={this.handleclick}>
-              <span class='bar'></span>
-              <span class='bar'></span>
-              <span class='bar'></span>
-            </a>
+        <header>
+          <div class='logo'>
+            <div className='name'>Meet Patel</div>
           </div>
-
-          <div className={`navbar-links ${this.state.navLinks}`}>
-            <ul>
-              <li>
-                <a href='#'>Home</a>
+          <button class='nav-toggle' aria-label='toggle navigation'>
+            <span class='hamburger'></span>
+          </button>
+          <nav class='nav'>
+            <ul class='nav__list'>
+              <li class='nav__item'>
+                <a href='#' class='nav__link'>
+                  Home
+                </a>
               </li>
-              <li>
-                <a href='#'>About</a>
+              <li class='nav__item'>
+                <a href='#' class='nav__link'>
+                  About
+                </a>
               </li>
-              <li>
-                <a href='#'>TechStack</a>
+              <li class='nav__item'>
+                <a href='#' class='nav__link'>
+                  Projects
+                </a>
               </li>
-              <li>
-                <a href='#'>Projects</a>
-              </li>
-              <li>
-                <a href='#'>Contact</a>
+              <li class='nav__item'>
+                <a href='#' class='nav__link'>
+                  Contact
+                </a>
               </li>
             </ul>
-          </div>
-        </nav>
+          </nav>
+        </header>
       );
   }
   
