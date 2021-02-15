@@ -28,7 +28,7 @@ export default class Nav extends Component {
           <nav class='nav'>
             <ul class='nav__list'>
               <li class='nav__item'>
-                <a href='#' class='nav__link'>
+                <a href='#home' class='nav__link'>
                   Home
                 </a>
               </li>
