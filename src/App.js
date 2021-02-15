@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './Nav/Nav';
 import Intro from './Intro/Intro';
+import TechStack from './TechStack/TechStack';
 import './App.css';
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       <Nav />
       <main>
         <Intro />
+        <TechStack />
       </main>
     </>
   );

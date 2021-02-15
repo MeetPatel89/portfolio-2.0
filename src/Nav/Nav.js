@@ -33,6 +33,11 @@ export default class Nav extends Component {
                 </a>
               </li>
               <li class='nav__item'>
+                <a href='#techstack' class='nav__link'>
+                  TechStack
+                </a>
+              </li>
+              <li class='nav__item'>
                 <a href='#' class='nav__link'>
                   About
                 </a>
