@@ -38,17 +38,17 @@ export default class Nav extends Component {
                 </a>
               </li>
               <li class='nav__item'>
-                <a href='#' class='nav__link'>
+                <a href='#about' class='nav__link'>
                   About
                 </a>
               </li>
               <li class='nav__item'>
-                <a href='#' class='nav__link'>
+                <a href='#projects' class='nav__link'>
                   Projects
                 </a>
               </li>
               <li class='nav__item'>
-                <a href='#' class='nav__link'>
+                <a href='#contact' class='nav__link'>
                   Contact
                 </a>
               </li>
