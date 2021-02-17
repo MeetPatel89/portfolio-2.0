@@ -1,0 +1,13 @@
+.social-icons {
+  position: relative;
+  background-color: black;
+}
+
+.twitter-social,
+.github-social,
+.linkedin-social,
+.mail-social {
+  color: white;
+  width: 30px;
+  height: 30px;
+}

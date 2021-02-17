@@ -4,6 +4,7 @@ import Intro from './Intro/Intro';
 import TechStack from './TechStack/TechStack';
 import About from './About/About';
 import Projects from './Projects/Project';
+import Contact from './Contact/Contact';
 import './App.css';
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <TechStack />
         <About />
         <Projects />
+        <Contact />
       </main>
       <footer>
         <span>MEET PATEL &#169;2021</span>
