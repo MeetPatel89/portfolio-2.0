@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import profile from '../images/profile.jpg';
+import profile from '../assets/profile.jpg';
 
 export default class Intro extends Component {
     render() {
         return (
-            <section className='intro' id='home'>
-                <h1 className='section__title section__title--intro'>
-                    Hi, I am <strong>Meet Patel</strong>
-                </h1>
-                <p className='section__subtitle section__subtitle--intro'>full-stack web developer</p>
-                <img src={profile} alt='profile of Meet smiling' />
-            </section>
+            <div className='intro' id='home'>
+               <p>Hello, I'm Meet Patel.</p>
+               <img src={profile} alt='profile' />
+               <p>I'm a full-stack web developer.</p>
+               <a href='#about'>About</a>
+               <a href='#projects'>View my work</a>
+            </div>
         )
     }
 }
