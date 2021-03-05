@@ -10,8 +10,8 @@ import './App.css';
 export default function App() {
   return (
     <>
-      <Nav />
       <main>
+        <Nav />
         <Intro />
         <TechStack />
         <About />

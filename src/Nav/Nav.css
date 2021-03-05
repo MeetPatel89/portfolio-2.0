@@ -1,0 +1,70 @@
+
+header {
+  background-color: #00171f;
+  color: #fdfdff;
+  position: relative;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fdfdff;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.name {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  top: 20px;
+  right: 20px;
+  height: 30px;
+}
+
+.hamburger .line {
+  width: 38px;
+  height: 3px;
+  background-color: #fdfdff;
+  margin: 0 0 5px 0;
+  transition: all 0.2s linear;
+}
+
+.hamburger.close {
+  transform: rotate(180deg);
+}
+
+.hamburger.close .line:nth-child(1) {
+  opacity: 0;
+}
+
+.hamburger.close .line:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.hamburger.close .line:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.logo-hamburger {
+  border-bottom: 3px solid #40c9a2;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
